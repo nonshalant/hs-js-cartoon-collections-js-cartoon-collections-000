@@ -10,11 +10,11 @@ dwarvesNames += `${i+1}. ${dwarves[i]} `;
 
 function summonCaptainPlanet(planeteerCalls){
 
-var caps = []
+var caps = [];
 for (var i=0; i<planeteerCalls.length; i++){
-  caps.push(planeteerCalls[i].toUpperCase()+'!')
+  caps.push(planeteerCalls[i].toUpperCase()+'!');
 }
-return caps 
+return caps ;
 }
   
 
